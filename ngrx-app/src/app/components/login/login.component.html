@@ -1,0 +1,49 @@
+<p>login component works!</p>
+<p>Login with email: 'test@gmail.com' to check successful login actions</p>
+<form class="m-auto w-50" [formGroup]="loginForm" (ngSubmit)="onSubmitLogin(loginForm)">
+  <div class="card">
+    <div class="card-header text-center">
+      <h3>Login</h3>
+      <div class="alert alert-danger" *ngIf="error$ | async">
+        Your email logged in difference with 'test@gmail.com'. Try again
+      </div>
+      <div class="alert alert-success" *ngIf="success$ | async">
+        Login success
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="form-group mb-2">
+        <label for="email">Email</label>
+        <input type="text"
+               class="form-control" name="email" id="email" aria-describedby="helpId" placeholder="Enter your email"
+               formControlName="email">
+        <div>
+          <small class="form-text text-muted"
+                 *ngIf="loginForm.get('email').touched && loginForm.get('email').hasError('required')">Email is
+            required</small>
+          <small class="form-text text-muted"
+                 *ngIf="loginForm.get('email').touched && loginForm.get('email').hasError('email')">Email is
+            invalid</small>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password"
+               class="form-control" name="password" id="password" aria-describedby="helpId"
+               placeholder="Enter your password" formControlName="password">
+        <small id="helpPasswordId" class="form-text text-muted"
+               *ngIf="loginForm.get('password').touched && loginForm.get('password').hasError('required')">Password is
+          required</small>
+      </div>
+    </div>
+    <div class="card-footer text-muted">
+      <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+    <div class="text-center">
+      <div class="spinner-border" role="status" *ngIf="loading$ | async">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
+</form>
+

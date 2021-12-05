@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="462fde93-6b83-4f17-877f-7dc2362088dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/store/actions/counter.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/store/reducers/counter.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/app/store/state/counter.state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/actions/post.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.effects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-introduction/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ngrx-app-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ngrx-app-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-introduction/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-introduction/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-introduction/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-introduction/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21jaVWGcJx440rZIemqY7ervIg9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="F:\my-angular-app\ngrx-app-demo\demo\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\my-angular-app\ngrx-app-demo\demo\src\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ngrx-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="462fde93-6b83-4f17-877f-7dc2362088dc" name="Changes" comment="" />
+      <created>1638456974817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638456974817</updated>
+      <workItem from="1638456977483" duration="29774000" />
+      <workItem from="1638548841190" duration="7091000" />
+      <workItem from="1638592304942" duration="45642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Research" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
