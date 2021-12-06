@@ -1,0 +1,8 @@
+<p>counter works!</p>
+<div class="d-flex">
+  <button name="decrementName" id="decrementId" class="btn btn-primary" role="button" (click)="decrement()">-</button>
+  <span>Count: {{value$ | async}}</span>
+  <button name="incrementName" id="incrementId" class="btn btn-primary" role="button" (click)="increment()">+</button>
+</div>
+<p>You pressed increment button: {{incrementCount$ | async}} times </p>
+<p>You pressed decrement button: {{decrementCount$ | async}} times </p>

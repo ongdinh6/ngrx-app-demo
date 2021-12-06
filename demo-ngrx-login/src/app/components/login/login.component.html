@@ -1,0 +1,28 @@
+<p>login works!</p>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm)">
+  <div class="card m-auto w-25">
+    <div class="card-header text-center">
+      <h5>Login To System</h5>
+      <small style="color:red; font-weight: 500">{{errorMessage$ | async}}</small>
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="uname">Username</label>
+        <input type="text"
+               class="form-control" name="uname" id="unameId" aria-describedby="helpId"
+               placeholder="Enter your username" formControlName="username">
+        <small id="helpUsernameId" class="form-text text-muted">Username is required.</small>
+      </div>
+      <div class="form-group mt-3">
+        <label for="password">Password</label>
+        <input type="password"
+               class="form-control" name="password" id="passwordId" aria-describedby="helpId"
+               placeholder="Enter your password" formControlName="password">
+        <small id="helpPasswordId" class="form-text text-muted">Please enter your password here.</small>
+      </div>
+    </div>
+    <div class="card-footer text-muted text-center">
+      <button type="submit" class="btn btn-outline-primary">Login</button>
+    </div>
+  </div>
+</form>

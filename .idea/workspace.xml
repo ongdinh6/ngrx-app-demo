@@ -2,66 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462fde93-6b83-4f17-877f-7dc2362088dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/components/counter/counter.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/store/actions/counter.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/store/reducers/counter.reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/app/store/state/counter.state.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/components/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/actions/post.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.effects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/app/store/user.state.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngrx-app/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/components/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/components/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/components/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/components/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/effects/login/login.effects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/services/login.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/services/login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/store/actions/login.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/store/model/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/store/reducers/login.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/app/store/state/login.state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-ngrx-login/tsconfig.spec.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ngrx-introduction/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ngrx-app-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ngrx-app-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/app.const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/components/counter/counter.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/components/counter/counter.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/components/counter/counter.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/components/counter/counter.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/store/actions/counter.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/store/effects/counter.effects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/store/reducers/counter.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/store/selectors/counter.selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrx-slice/src/app/store/state/counter.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-introduction" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-introduction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ngrx-introduction/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-introduction/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ngrx-introduction/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-introduction/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrx-slice/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngrx-slice/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,10 +104,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="F:\my-angular-app\ngrx-app-demo\demo\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\my-angular-app\ngrx-app-demo\ngrx-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\my-angular-app\ngrx-app-demo\demo-ngrx-login\src\app\components\login" />
+      <recent name="F:\my-angular-app\ngrx-app-demo\ngrx-slice\src\app\components\counter" />
+      <recent name="F:\my-angular-app\ngrx-app-demo\ngrx-slice\src\app\store" />
       <recent name="F:\my-angular-app\ngrx-app-demo\demo\src\app" />
     </key>
   </component>
@@ -137,7 +139,8 @@
       <updated>1638456974817</updated>
       <workItem from="1638456977483" duration="29774000" />
       <workItem from="1638548841190" duration="7091000" />
-      <workItem from="1638592304942" duration="45642000" />
+      <workItem from="1638592304942" duration="55350000" />
+      <workItem from="1638758947349" duration="27792000" />
     </task>
     <servers />
   </component>

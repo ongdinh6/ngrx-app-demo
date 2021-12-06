@@ -4,26 +4,31 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {StoreModule} from '@ngrx/store';
+import {FEATURE_NAME, loginReducer} from "./store/reducers/login.reducer";
+import {LoginComponent} from './components/login/login.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {environment} from '../environments/environment';
-import {CounterComponent} from './components/counter/counter.component';
-import {FEATURE_NAME} from "./app.const";
-import {counterReducer} from "./store/reducers/counter.reducer";
-import { EffectsModule } from '@ngrx/effects';
+import {EffectsModule} from '@ngrx/effects';
+import {LoginEffects} from "./effects/login/login.effects";
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forFeature(FEATURE_NAME, counterReducer),
-    /*nhung cai khong thuoc vao mot cai feature nao ca thi nen dat chung vao root store, chang han nhu auth*/
+    FormsModule,
+    ReactiveFormsModule,
+    StoreModule.forFeature(FEATURE_NAME, loginReducer),
     StoreModule.forRoot({}, {}),
+    ReactiveFormsModule,
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
-    EffectsModule.forRoot([])
+    EffectsModule.forRoot([LoginEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]
